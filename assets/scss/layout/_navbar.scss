@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    padding: 10px;
+    font-family: $mono-font;
+    &__wrapper-image{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    &__image{
+        width: 2.5rem;
+    }
+    &__wrapper-ul{
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+    &__ul{
+        display: flex;
+        gap: 25px;
+        color: $quick-silver;
+        font-size: $large;
+    }
+    &__li{
+        list-style: none;
+    }
+    &__link{
+        color: $quick-silver;
+        text-decoration: none;
+    }
+    &__link:hover{
+        color: $black;
+    }
+    &__wrapper-button{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+}

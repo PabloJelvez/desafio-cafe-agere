@@ -1,0 +1,27 @@
+// Archivo de tipografía 
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap');
+
+
+h1{
+    font-family: $mono-font;
+    font-size: $xxx-large;
+    font-weight: $font-medium ;
+}
+
+h2{
+    font-family: $mono-font;
+    font-size: $xx-large;
+    font-weight: $font-thin;
+}
+
+h3, h4, h5, h6{
+    font-family: $mono-font;
+    font-weight: $font-thin;
+}
+
+p, small, label, span{
+    font-family: $roboto-fonts;
+    font-weight: $font-thin;
+}
+

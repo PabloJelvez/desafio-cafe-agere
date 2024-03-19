@@ -1,0 +1,67 @@
+// Archivo de header 
+
+.header{
+    display: flex;
+
+    &__wrapper-image{
+        width: 65%;
+        position: relative;
+        background-color: red;
+    }
+    &__image{
+        width: 100%;
+        height: 100%;
+    }
+    &__wrapper-title{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 90px;
+        position: relative;
+        padding-top: 7%;
+    }
+    &__text{
+        font-size: $large;
+        padding-top: 5px;
+    }
+    &__wrapper-features{
+        width: 50%;
+        height: 30%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+
+    }
+    &__features{
+        padding: 15px;
+    }
+    &__wrapper-arrow{
+        width: 30%;
+        height: 30%;
+        bottom: 0;
+        left: 0;
+        background-color: $coral;
+        position: absolute;
+    }
+    &__wrapper-icon{
+        background-color: $light-red-ochre;
+        width: 30%;
+        height: 30%;
+        z-index: 1;
+        position: absolute;
+        left: -15px;
+        bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.fa-solid{
+    color: $white;
+    font-size: $xxx-large;
+
+}
